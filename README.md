@@ -20,7 +20,7 @@ From the evaluation plot it's evident that the training accuracy of the model fa
 
 ### Classification report
 
-![alt text](https://github.com/dannyboy73/CovidCNN/blob/main/images/classification_report.png)
+![alt text](https://github.com/dannyboy73/CovidCNN/blob/941735f523758c729dc8d5a20b498fb59740b3ba/images/classification_report.png)
 
 Looking at the classification report, precision = 0.98, recall = 0.88, accuracy = 0.925, and F1 score = 0.928.
 
