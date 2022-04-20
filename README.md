@@ -22,15 +22,12 @@ From the evaluation plot it's evident that the training accuracy of the model fa
 
 ![alt text](https://github.com/dannyboy73/CovidCNN/blob/main/images/classification_report.png)
 
-Looking at the classification report, the normal class gets a precision = 0.60, recall = 0.34 and f1-score = 0.43. For the pneumonia class the precision = 0.54, recall = 0.77 and f1-score = 0.63. The greater recall for the pneumonic class is advantageous because, even if a normal image is diagnosed as pneumonic (False Negative), once the report reaches the radiologist he/she can dismiss it as a normal case. However, when the opposite happens, the radiologist would miss the diagnosis if it was positive for pneumonia. Hence, the recall is beneficial in spotting the majority of the pneumonic cases.
+Looking at the classification report, precision = 0.98, recall = 0.88, accuracy = 0.925, and F1 score = 0.928.
 
 The count of normal and pneumonic cases for the test dataset are as follows, 
 
 ![alt text](https://github.com/dannyboy73/CovidCNN/blob/main/images/normal_classification.png)
 ![alt text](https://github.com/dannyboy73/CovidCNN/blob/main/images/pneumonia_classification.png)
-
-
-**NOTE: The absence of quality and trustable image data could be a reason for a lower f1-score and precision for the normal class. With a better dataset (and a refined model) the f1-score can be increased.** 
 
 
 **Web APP coming soon!**
