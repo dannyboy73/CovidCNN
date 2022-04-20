@@ -24,10 +24,4 @@ From the evaluation plot it's evident that the training accuracy of the model fa
 
 Looking at the classification report, precision = 0.98, recall = 0.88, accuracy = 0.925, and F1 score = 0.928.
 
-The count of normal and pneumonic cases for the test dataset are as follows, 
-
-![alt text](https://github.com/dannyboy73/CovidCNN/blob/main/images/normal_classification.png)
-![alt text](https://github.com/dannyboy73/CovidCNN/blob/main/images/pneumonia_classification.png)
-
-
 **Web APP coming soon!**
